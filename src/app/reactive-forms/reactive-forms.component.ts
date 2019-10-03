@@ -11,9 +11,7 @@ export class ReactiveFormsComponent implements OnInit {
   hide = false
   form: FormGroup
   backgroundColor = ''
-  @ViewChild('editor', {
-    static: true
-  }) editor: QuillEditorComponent
+  @ViewChild('editor') editor: QuillEditorComponent
 
   constructor(fb: FormBuilder) {
     this.form = fb.group({

@@ -9,7 +9,7 @@ import { QuillEditorComponent } from 'ngx-quill'
   templateUrl: './mention.component.html'
 })
 export class MentionComponent {
-  @ViewChild(QuillEditorComponent, { static: true }) editor: QuillEditorComponent
+  @ViewChild(QuillEditorComponent) editor: QuillEditorComponent
   content = ''
 
   modules = {

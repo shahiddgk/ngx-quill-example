@@ -16,6 +16,7 @@ describe('TextLayerEditorComponent', () => {
       providers: QuillModule.forRoot().providers
     }).compileComponents()
     fixture = TestBed.createComponent(DefaultComponent) as ComponentFixture<DefaultComponent>
+    fixture.detectChanges()
   }))
 
   it('should create', () => {
