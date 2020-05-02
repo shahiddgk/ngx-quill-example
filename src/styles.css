@@ -1,4 +1,4 @@
-quill-editor {
+/* quill-editor {
   display: block;
 }
 
@@ -9,11 +9,11 @@ quill-editor {
 
 .ng-invalid {
   border: 1px dashed red;
-}
+} */
 
 /* Set dropdown font-families */
 
-[quill-editor-toolbar] .ql-font span[data-label="Aref Ruqaa"]::before {
+/* [quill-editor-toolbar] .ql-font span[data-label="Aref Ruqaa"]::before {
   font-family: "Aref Ruqaa";
 }
 
@@ -23,11 +23,11 @@ quill-editor {
 
 [quill-editor-toolbar] .ql-font span[data-label="Roboto"]::before {
   font-family: "Roboto";
-}
+} */
 
 /* Set content font-families */
 
-.ql-font-mirza {
+/* .ql-font-mirza {
   font-family: "Mirza";
 }
 
@@ -44,4 +44,4 @@ pre {
   padding: 5px;
   border: 1px solid #b2b2b2;
   color: #363030;
-}
+} */
